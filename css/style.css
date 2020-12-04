@@ -1,0 +1,245 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Holtwood One SC';
+    src: url('./fonts/HoltwoodOneSC.woff2') format('woff2'),
+        url('./fonts/HoltwoodOneSC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Black.woff2') format('woff2'),
+        url('./fonts/Poppins-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('./fonts/FuturaBT-MediumItalic.woff2') format('woff2'),
+        url('./fonts/FuturaBT-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./fonts/Futura-Bold.woff2') format('woff2'),
+        url('./fonts/Futura-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./fonts/Futura-Bold.woff2') format('woff2'),
+        url('./fonts/Futura-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('./fonts/Pacifico-Regular.woff2') format('woff2'),
+        url('./fonts/Pacifico-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    position: relative;
+}
+.header{
+    background-image: url("../img/4-layers.png");
+    background-repeat: no-repeat;
+    background-position: 10px -100px;
+    background-size: 600px;
+    height: 10 0vh;
+    padding-bottom: 80px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #562c19;
+}
+.nav-img{
+    margin-left: 100px;
+}
+.nav-subtext{
+	font-family: 'Pacifico';
+    font-size: 25px;
+	color: #fff;
+}
+.nav-item{
+	display: flex;
+	margin-left: auto;
+}
+.nav-link{
+    color: #fff;
+    padding: 20px;
+	font-family: 'Futura';
+}
+html {
+    scroll-behavior: smooth;
+}
+.last{
+    padding-right: 100px;
+}
+.images{
+    display: flex;
+    align-items: center;
+}
+.header-subtext{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    font-family: 'Holtwood One SC';
+    color: #4f1f12;
+    text-align: right;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+strong{
+    letter-spacing: 15px;
+    font-size: 100px;
+}
+.image{
+    margin: 10px;
+}
+.about-us{
+    padding-bottom: 50px;
+    scroll-behavior: smooth;
+}
+.about-us > .container {
+    display: flex;
+}
+.info{
+    padding-left: 100px;
+}
+.about-us-title{
+    font-family: Pacifico;
+    color: #4f1f12;
+    font-size: 40px;
+}
+.about-us-image{
+    margin: 15px 0;
+}
+.about-us-subtext{
+    font-family: Pacifico;
+    font-size: 25px;
+}
+.subtext{
+    position: absolute;
+    left: 300px;
+    display: block;
+    font-family: "Futura";
+    color: #444444;
+    width: 550px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+
+}
+.flex{
+    padding-top: 250px;
+    display: flex;
+    align-items: center;
+}
+.about-us-link{
+    padding: 15px 20px;
+    background-color: #4f1f12;
+    color: #fff;
+    font-family: "Futura";
+    margin-right: 50px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.side{
+    position: relative;
+    margin-left: auto;
+}
+.collection{
+    padding-bottom: 100px;
+}
+.collection > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.collection-title{
+    color: #4f1f12;
+    font-family: Pacifico;
+    font-size: 40px;
+    text-align: center;
+}
+.collection-img{
+    width: 280px;
+    margin: 20px auto;
+}
+.boxes{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+.brown{
+    background-color: #4f1f12;
+    width: calc(80% / 4);
+    margin-right: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(80% / 4);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 0 15px;
+    height: 300px;
+}
+.box:hover{
+    box-shadow: inset 2px 2px 0px 2px #4f1f12,
+    2px 2px 0px 2px #4f1f12;
+}
+.box-title{
+    font-family: Pacifico;
+    color: #4f1f12;
+    padding-bottom: 10px;
+
+}
+.box-subtext{
+    width: 100%;
+    padding-top: 30px;
+    font-family: "Futura";
+    color: #777777;
+    text-align: center;
+}
+.box-img{
+    width: 150px;
+}
