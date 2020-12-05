@@ -552,6 +552,65 @@ button{
 .footer{
     background-color: #000;
     color: #fff;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
 }
-.footer > .container{
+.footer-wrapper{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 220px;
+    margin-left: 70px;
+}
+.footer-title{
+    font-family: Pacifico;
+    padding-bottom: 25px;
+}
+.footer-subtext{
+    font-family: "Futura BT";
+    color: #fff;
+    line-height: 1.7;
+}
+.footer-subtext::before{
+    content: "";
+    display: inline-block;
+    background-image: url("../img/Forma_1_copy_13.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 12px;
+    margin-right: 15px;
+}
+.footer-link{
+    font-family: "Futura BT";
+    color: #fff;
+    background-color: #4f1f12;
+    display: flex;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    padding: 15px 20px;
+    margin-top: 30px;
+}
+.footer-input{
+    padding: 15px 15px;
+    font-family: "Futura BT";
+    width: 200px;
+}
+.footer-hr{
+    background-color: #ffffff;
+    opacity: 0.2;
+    height: 1px;
+    border: none;
+}
+.footer-img{
+    margin: 0 2px;
+}
+.margin{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;
 }
