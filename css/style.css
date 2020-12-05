@@ -135,6 +135,9 @@ strong{
 .image{
     margin: 10px;
 }
+span{
+    word-spacing: 5px;
+}
 .about-us{
     padding-bottom: 50px;
     scroll-behavior: smooth;
