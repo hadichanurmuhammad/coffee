@@ -13,6 +13,14 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Poppins black';
+    src: url('./fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('./fonts/Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
 
 @font-face {
     font-family: 'Poppins';
@@ -32,7 +40,7 @@
 }
 
 @font-face {
-    font-family: 'Futura';
+    font-family: 'Futura BT';
     src: url('./fonts/Futura-Bold.woff2') format('woff2'),
         url('./fonts/Futura-Bold.woff') format('woff');
     font-weight: 500;
@@ -65,7 +73,7 @@ body{
     background-repeat: no-repeat;
     background-position: 10px -100px;
     background-size: 600px;
-    height: 10 0vh;
+    height: 100vh;
     padding-bottom: 80px;
 }
 .container{
@@ -78,6 +86,9 @@ body{
 	display: flex;
 	align-items: center;
 	background-color: #562c19;
+}
+.nav{
+    z-index: 4;
 }
 .nav-img{
     margin-left: 100px;
@@ -109,16 +120,16 @@ html {
 .header-subtext{
     padding-top: 100px;
     padding-bottom: 80px;
-    font-family: 'Holtwood One SC';
+    font-family: 'Poppins black';
     color: #4f1f12;
     text-align: right;
-    font-weight: 100;
     font-size: 50px;
     line-height: 1.2;
     text-transform: uppercase;
+    word-spacing: 15px;
 }
 strong{
-    letter-spacing: 15px;
+    font-family: "Holtwood One SC";
     font-size: 100px;
 }
 .image{
@@ -145,6 +156,7 @@ strong{
 .about-us-subtext{
     font-family: Pacifico;
     font-size: 25px;
+    min-width: 500px;
 }
 .subtext{
     position: absolute;
@@ -161,6 +173,9 @@ strong{
     background-color: #fff;
 
 }
+.subtext{
+    z-index: 1;
+}
 .flex{
     padding-top: 250px;
     display: flex;
@@ -172,6 +187,8 @@ strong{
     color: #fff;
     font-family: "Futura";
     margin-right: 50px;
+    font-size: 15px;
+    min-width: 125px;
 }
 button{
     background-color: transparent;
@@ -182,6 +199,7 @@ button{
 .side{
     position: relative;
     margin-left: auto;
+    margin-top: 40px;
 }
 .collection{
     padding-bottom: 100px;
@@ -242,4 +260,298 @@ button{
 }
 .box-img{
     width: 150px;
+}
+.delivery{
+    padding-bottom: 100px;
+}
+.delivery > .container{
+    display: flex;
+    justify-content: space-between;
+}
+.delivery-title{
+    font-family: Pacifico;
+    padding-bottom: 10px;
+    color: #4f1f12; 
+    font-size: 35px;
+}
+.delivery-img{
+    width: 255px;
+}
+.delivery-subtext{
+    color: #777777;
+    font-family: "Futura BT";
+    width: 600px;
+    line-height: 1.5;
+    padding-top: 30px;
+}
+.aside-title{
+    font-family: Pacifico;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.country{
+    display: flex;
+    height: 100px;
+    line-height: 2;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.countries{
+    font-family: "Futura BT";
+    color: #777777;
+}
+.countries::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 3px;
+    background-image: url("../img/Rectangle_2_copy_9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 3px;
+    margin-right: 5px;
+
+}
+.delivery-link{
+    padding: 13px 25px;
+    background-color: #4f1f12;
+    color: #fff;
+    font-family: "Futura Md BT";
+}
+.map-img{
+    width: 500px;
+    margin-top: 100px;
+}
+.menu{
+    width: 100%;
+    background-color: #291009;
+    color: #fff;
+    padding-bottom: 80px;
+}
+.menu > .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.menu-title{
+    font-family: Pacifico;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.menu-img{
+    text-align: center;
+    width: 255px;
+    margin: 0 auto;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    margin: 30px auto;
+}
+.left{
+    margin: 0 auto;
+    width: 35%;
+}
+.center{
+    height: 300px;
+    margin: 0 0;
+}
+.right{
+    margin: 0 auto;
+    width: 35%;
+}
+.line{
+    display: flex;
+    padding-top: 10px;
+}
+.left-title{
+    font-family: Pacifico;
+    padding-bottom: 10px;
+}
+.left-subtext{
+    margin-right: auto;
+    font-family: "Futura BT";
+    padding: 10px 0;
+}
+.price{
+    font-family: "Futura BT";
+    padding: 10px 0;
+    margin-left: auto;
+}
+.chefs{
+    padding-bottom: 100px;
+}
+.chefs > .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chefs-title{
+    padding-top: 100px;
+    font-family: Pacifico;
+    color: #4f1f12;
+    font-size: 40px;
+    text-align: center;
+}
+.chefs-img{
+    width: 320px;
+}
+.scroll{
+    display: flex;
+}
+.scroll-box{
+    width: 280px;
+    height: 330px;
+    background-color: #4f1f12;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 0 5px;
+}
+.scroll-img{
+    width: 70px;
+}
+.stars{
+    margin: 0 auto;
+}
+.stars-title{
+    font-family: Pacifico;
+    padding-bottom: 10px;
+}
+.stars-subtext{
+    padding-top: 10px;
+    font-family: "Futura BT";
+    color: #777777;
+    width: 550px;
+    line-height: 1.7;
+    padding-bottom: 10px;
+}
+.stars-wrapper{
+    display: flex;
+    align-items: center;
+}
+.chefs-subtext{
+    font-family: Pacifico;
+    padding-right: 10px;
+}
+.chefs-stars-img{
+    margin: 0 3px;
+}
+.instagram{
+    padding-bottom: 100px;
+}
+.instagram > .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.instagram-title{
+    font-family: Pacifico;
+    font-size: 40px;
+    color: #4f1f12;
+    padding-bottom: 15px;
+}
+.instagram-img{
+    margin: 0 auto;
+    width: 370px;
+}
+.instagram-wrapper{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.instagram-wrapper-box{
+    width: 200px;
+    height: 200px;
+    background-color: #4f1f12;
+    margin: 10px;
+}
+.instagram{
+    margin-bottom: 30px;
+}
+.instagram-wrapper-img{
+    width: 70px;
+}
+.instagram-container-title{
+    font-family: Pacifico;
+    color: #4f1f12;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.blog{
+    display: flex;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.blog-box{
+    width: 350px;
+    height: 250px;
+    background-color: #4f1f12;
+    margin: 0 10px;
+}
+.info-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+.info{
+    width: 350px;
+    margin: 0 5px;
+}
+.info:nth-child(1){
+    padding-left: 90px;
+}
+.info:nth-child(3){
+    padding-left: 110px;
+}
+.info-title{
+    font-family: Pacifico;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #4f1f12;
+}
+.info-subtext{
+    font-family: "Futura BT";
+    padding-bottom: 15px;
+    color: #777777;
+    width: 400px;
+}
+.instagram-info-subtext{
+    font-family: "Futura BT";
+    color: #777777;
+    line-height: 1.5;
+    width: 350px;
+    padding-bottom: 10px;
+}
+.info-link{
+    font-family: "Futura BT";
+    color: #4f1f12;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4f1f12;
+}
+.info-link::after{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    background-image: url(../img/Forma_1_copy_10.svg);
+    margin-left: 5px;
+}
+.info-link:hover::after{
+    transform: translate(15px);
+    transition: 0.5s;
+}
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+.footer > .container{
 }
