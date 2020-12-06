@@ -1,5 +1,12 @@
 @media(max-width: 500px){
 
+	.header{
+		display: flex;
+		justify-content: center;
+		background-size: 240px;
+		background-position: 10px 15px;
+	}
+
 	.container{
 		width: 470px;
 	}
@@ -8,13 +15,21 @@
 		width: 500px;
 	}
 
+	.header-subtext{
+		font-size: 25px;
+	}
+
+	strong{
+		font-size: 51px;
+	}
+
 	.delivery-subtext{
 		margin: 0;
-		width: 480px;
+		width: 470px;
 	}
 
 	.subtext{
-		width: 500px;
+		width: 490px;
 	}
 
 	.map-img{
@@ -26,6 +41,31 @@
 	}
 
 	.image{
-		width: 50px;
+		width: 80px;
 	}
+
+	.about-us{
+		padding-top: 0;
+	}
+
+	.about-us-title{
+		margin-left: 150px;
+		min-width: 200px;
+	}
+
+	.stars-subtext{
+		width: 470px;
+	}
+
+	.about-us-image{
+		margin-left: 60%;
+	}
+
+	.about-us-subtext{
+		margin-left: -15px;
+	}
+    
+    .footer{
+    	height: 750px;
+    }
 }
