@@ -146,6 +146,7 @@ span{
     display: flex;
 }
 .info{
+    width: 100%;
     padding-left: 100px;
 }
 .about-us-title{
@@ -270,6 +271,7 @@ button{
 .delivery > .container{
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
 }
 .delivery-title{
     font-family: Pacifico;
@@ -493,33 +495,34 @@ button{
     display: flex;
     padding-top: 30px;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 .blog-box{
     width: 350px;
     height: 250px;
     background-color: #4f1f12;
     margin: 0 10px;
+    display: flex;
+    flex-direction: column;
 }
 .info-wrapper{
     display: flex;
     justify-content: flex-start;
     margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .info{
     width: 350px;
-    margin: 0 5px;
+    margin: 0 -90px;
 }
-.info:nth-child(1){
-    padding-left: 90px;
-}
-.info:nth-child(3){
-    padding-left: 110px;
-}
+
 .info-title{
     font-family: Pacifico;
     padding-top: 10px;
     padding-bottom: 15px;
     color: #4f1f12;
+    min-width: 200px;
 }
 .info-subtext{
     font-family: "Futura BT";
@@ -601,6 +604,7 @@ button{
     padding: 15px 15px;
     font-family: "Futura BT";
     width: 200px;
+    outline: none;
 }
 .footer-hr{
     background-color: #ffffff;

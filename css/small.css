@@ -1,0 +1,78 @@
+@media(max-width: 576px){
+
+	.container{
+		width: 540px;
+	}
+
+	.nav{
+		width: 576px;
+	}
+
+	.header{
+		background-size: 280px;
+		background-position: 10px 10px;
+	}
+
+	.header-subtext{
+		font-size: 30px;
+	}
+
+	strong{
+		font-size: 61px;
+	}
+
+	.image{
+		width: 95px;
+	}
+
+	.side{
+		display: none;
+	}
+
+	.about-us-title{
+		margin-left: 190px;
+		min-width: 200px;
+	}
+
+	.about-us-image{
+		margin-left: 75%;
+	}
+
+	.flex{
+		margin-left: 50%;
+	}
+
+	.box-img{
+		width: 80px;
+	}
+
+	.about-us-subtext{
+		text-align: center;
+		margin-left: 25px;
+	}
+
+	.subtext{
+		left: 0;
+		text-align: center;
+	}
+
+	.delivery-subtext{
+		width: 500px;
+	}
+
+	.aside-title{
+		margin-left: 20px;
+	}
+
+	.country{
+		margin-left: 20px;
+	}
+
+	.one{
+		display: none;
+	}
+
+	.info{
+		padding-bottom: 20px;
+	}
+}

@@ -1,0 +1,31 @@
+@media(max-width: 500px){
+
+	.container{
+		width: 470px;
+	}
+
+	.nav{
+		width: 500px;
+	}
+
+	.delivery-subtext{
+		margin: 0;
+		width: 480px;
+	}
+
+	.subtext{
+		width: 500px;
+	}
+
+	.map-img{
+		width: 400px;
+	}
+
+	.stars-subtext{
+		width: 480px;
+	}
+
+	.image{
+		width: 50px;
+	}
+}

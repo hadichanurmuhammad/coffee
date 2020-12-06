@@ -1,0 +1,91 @@
+@media(max-width: 768px){
+
+	.header{
+		background-size: 350px;
+		background-position: 10px -10px;
+	}
+
+	.nav{
+		width: 768px;
+	}
+
+	.container{
+		width: 720px;
+		margin: 0 auto;
+	}
+
+	.header-subtext{
+		font-size: 40px;
+	}
+
+	strong{
+		font-size: 80px;
+	}
+
+	.image{
+		width: 130px;
+	}
+
+	.about-us{
+		padding-top: 150px;
+	}
+
+	.side{
+		display: none;
+		padding-top: 50px;
+	}
+
+	.side > img{
+		width: 400px;
+	}
+
+	.subtext{
+		left: 100px;
+	}
+
+	.box-img{
+		width: 100px;
+	}
+
+	.chefs > .container > .wrapper{
+		flex-direction: column;
+	}
+
+	.scroll{
+		margin: 0 auto;
+	}
+
+	.stars{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.stars-title{
+		text-align: center;
+	}
+
+	.stars-images{
+		margin: 0 auto;
+	}
+
+	.stars-subtext{
+		text-align: center;
+	}
+
+	.stars-wrapper{
+		margin: 0 auto;
+	}
+
+	.display{
+		display: none;
+	}
+
+	.footer{
+		height: 700px;
+	}
+
+	.footer-wrapper{
+		height: 420px;
+	}
+	
+}
