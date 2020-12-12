@@ -626,6 +626,10 @@ button{
     .container{
         width: 1100px;
     }
+
+    .info-wrapper:nth-child(3){
+        margin-top: 30px;
+    }
 }
 
 @media(max-width: 1094px){
@@ -663,5 +667,227 @@ button{
 
     .info-wrapper:nth-child(3){
         margin-top: 30px;
+    }
+}
+
+@media(max-width: 1038px){
+    .container{
+        width: 1000px;
+    }
+
+    .instagram-wrapper{
+        margin-left: -25px;
+    }
+}
+
+@media(max-width: 1028px){
+    .container{
+        width: 900px;
+    }
+
+    .header{
+        background-size: 450px;
+        background-position: 0 -20px;
+    }
+
+    .image{
+        width: 180px;
+    }
+
+    .images{
+        margin-left: -50px;
+    }
+
+    .delivery-subtext{
+        width: 450px;
+    }
+
+    .stars-subtext{
+        width: 500px;
+    }
+
+    .wrapper{
+        margin-left: -20px;
+    }
+
+    .instagram-wrapper{
+        margin: 0 auto;
+    }
+
+    .none{
+        display: none;
+    }
+}
+
+@media(max-width: 958px){
+    .container{
+        max-width: 860px;
+    }
+
+    .side{
+        margin-right: 10px;
+    }
+
+    .aside-title{
+        margin-left: 20px;
+    }
+
+    .country{
+        margin-left: 20px;
+    }
+
+    .header-subtext{
+        margin-right: 10px;
+    }
+
+    .wrapper{
+        margin-right: 60px;
+    }
+
+    .stars-subtext{
+        max-width: 450px;
+    }
+}
+
+@media(max-width: 928px){
+    .container{
+        width: 830px;
+    }
+
+    .image{
+        max-width: 160px;
+    }
+
+    .subtext{
+        left: 100px;
+    }
+}
+
+@media(max-width: 876px){
+    .container{
+        width: 780px;
+    }
+
+    .image{
+        max-width: 150px;
+    }
+
+    .stars-subtext{
+        max-width: 400px;
+    }
+
+    .wrapper{
+        margin-left: 25px;
+    }
+
+    .info-subtext{
+        width: 380px;
+    }
+}
+
+@media(max-width: 858px){
+    .container{
+        max-width: 760px;
+    }
+
+    .side > img{
+        width: 450px;
+    }
+
+    .side{
+        margin-top: 80px;
+        margin-left: 180px;
+    }
+
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 200px;
+    }
+
+    .brown{
+        width: 200px;
+        height: 300px;
+    }
+
+    .box:nth-child(2){
+        margin-bottom: 20px;
+    }
+
+    .wrapper{
+        margin-left: -40px;
+    }
+
+    .instagram-wrapper{
+        margin-left: -30px;
+    }
+
+    .footer > .container{
+        margin-left: 0;
+    }
+
+    .footer-title{
+        margin-right: 15px;
+    }
+
+    .header{
+        background-size: 450px;
+        background-position: 0 -20px;
+    }
+
+    .header-subtext{
+        font-size: 40px;
+    }
+
+    .header-subtext > strong{
+        font-size: 80px;
+    }
+
+    .header-subtext > span{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 838px){
+    .container{
+        max-width: 740px;
+    }
+
+    .about-us{
+        padding-top: 0 !important
+    }
+
+    .side{
+        margin-left: 150px;
+    }
+
+    .chefs .container .wrapper{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .scroll{
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .stars{
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stars-subtext{
+        text-align: center;
+    }
+
+    .instagram-wrapper{
+        margin-left: -50px;
     }
 }
