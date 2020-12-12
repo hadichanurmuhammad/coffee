@@ -621,3 +621,47 @@ button{
     padding-top: 20px;
     justify-content: space-between;
 }
+
+@media(max-width: 1188px){
+    .container{
+        width: 1100px;
+    }
+}
+
+@media(max-width: 1094px){
+    .container{
+        width: 1000px;
+    }
+
+    .image{
+        width: 200px;
+    }
+}
+
+@media(max-width: 1090px){
+    .container{
+        width: 1000px;
+    }
+
+    .delivery-subtext{
+        width: 500px;
+    }
+
+    .images{
+        margin-left: -30px;
+    }
+}
+
+@media(max-width: 1078px){
+    .container{
+        width: 1000px;
+    }
+
+    .instagram-wrapper{
+        margin-left: -20px;
+    }
+
+    .info-wrapper:nth-child(3){
+        margin-top: 30px;
+    }
+}
