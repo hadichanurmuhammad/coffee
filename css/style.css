@@ -1126,3 +1126,35 @@ button{
         margin-left: 15px;
     }
 }
+
+@media(max-width: 696px){
+    .container{
+        max-width: 595px;
+    }
+}
+
+@media(max-width: 678px){
+    .container{
+        max-width: 580px;
+    }
+
+    .nav-item{
+        margin-right: -25px;
+    }
+
+    .image{
+        max-width: 110px;
+    }
+
+    .left{
+        margin-left: 90px;
+    }
+
+    .right{
+        margin-left: 90px;
+    }
+
+    .footer-wrapper{
+        width: 100%;
+    }
+}
