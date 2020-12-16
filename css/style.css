@@ -1091,6 +1091,12 @@ button{
         flex-direction: column;
     }
 
+    .left-title{
+        margin: 0 auto;
+        text-align: center;
+        min-width: 100%;
+    }
+
     .line{
         width: 500px;
     }

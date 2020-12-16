@@ -362,3 +362,102 @@
 		max-width: 65px;
 	}
 }
+
+@media(max-width: 420px){
+	.header-subtext{
+		font-size: 19px !important
+	}
+
+	.header-subtext > span{
+		font-size: 20px;
+	}
+
+	.header-subtext > strong{
+		font-size: 40px;
+	}
+
+	.header{
+		background-size: 150px !important;
+		background-position: 10px 50px !important;
+	}
+
+	.left{
+		margin-left: 100px;
+	}
+
+	.right{
+		margin-left: 100px;
+	}
+}
+
+@media(max-width: 418px){
+	.container{
+		max-width: 320px;
+	}
+
+	.about-us-subtext{
+		transform: translateX(-30px);
+	}
+
+	.about-us-title{
+		max-width: 100%;
+	}
+
+	.menu > .container > .wrapper{
+		margin-right: 180px;
+	}
+
+	.scroll{
+		margin-right: -30px;
+		max-width: 418px;
+	}
+
+	.instagram-wrapper{
+		width: 120%;
+	}
+
+	.instagram-img{
+		margin-left: -30px;
+	}
+
+	.instagram-container-img{
+		width: 250px;
+	}
+
+	.blog{
+		margin-left: -25px;
+	}
+
+	.footer-wrapper{
+		margin-left: -30px;
+	}
+
+	.countries:nth-child(4){
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.countries:nth-child(5){
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.countries:nth-child(6){
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.flex{
+		margin-left: -20px;
+	}
+}
+
+@media(max-width: 408px){
+	.about-us-subtext{
+		margin-left: -20px !important
+	}
+
+	.scroll{
+		max-width: 408px;
+	}
+}
