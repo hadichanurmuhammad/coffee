@@ -30,12 +30,12 @@
 	}
 
 	.about-us-title{
-		margin-left: 190px;
+		margin-left: 150px;
 		min-width: 200px;
 	}
 
 	.about-us-image{
-		margin-left: 75%;
+		margin-left: 150px;
 	}
 
 	.flex{
@@ -48,12 +48,12 @@
 
 	.about-us-subtext{
 		text-align: center;
-		margin-left: 25px;
 	}
 
 	.subtext{
 		left: 0;
 		text-align: center;
+		margin-left: 10px;
 	}
 
 	.delivery-subtext{
@@ -74,5 +74,115 @@
 
 	.info{
 		padding-bottom: 20px;
+	}
+}
+
+@media(max-width: 570px){
+	.container{
+		max-width: 470px;
+	}
+
+	.instagram-wrapper{
+		width: 100%;
+	}
+
+	.menu > .container > .wrapper{
+		margin-right: 100px;
+	}
+
+	.nav-list{
+		display: none;
+	}
+
+	.nav{
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.header-button{
+		display: inline-block;
+		color: white;
+		font-weight: bold;
+		border: 1px solid #fff;
+	}
+}
+
+@media(max-width: 558px){
+	.subtext{
+		margin-left: 5px;
+	}
+}
+
+@media(max-width: 554px){
+	.subtext{
+		width: 96%;
+		margin-left: 2%;
+	}
+}
+
+@media(max-width: 544px){
+	.container{
+		max-width: 445px;
+	}
+
+	.header-subtext{
+		font-size: 24px !important
+	}
+
+	.header-subtext > span {
+		font-size: 25px;
+	}
+
+	.header-subtext > strong{
+		font-size: 50px;
+	}
+
+	.brown{
+		margin-bottom: 20px;
+		width: 250px;
+	}
+
+	.box{
+		width: 250px;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+
+	.map{
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.delivery-subtext{
+		width: 90%;
+	}
+
+	.menu > .container > .wrapper{
+		margin-right: 130px;
+	}
+
+	.about-us-subtext{
+		margin-left: -50px;
+	}
+}
+
+@media(max-width: 528px){
+	.image{
+		max-width: 85px;
+	}
+}
+
+@media(max-width: 504px){
+	.container{
+		max-width: 400px;
+	}
+
+	.image{
+		max-width: 80px;
+	}
+
+	.header{
+		background-size: 200px !important;
+		background-position: 0 25px !important
 	}
 }

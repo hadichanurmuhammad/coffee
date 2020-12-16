@@ -249,10 +249,14 @@ button{
     background-color: #fff;
     margin: 0 15px;
     height: 300px;
+    transition: 0.5s;
 }
 .box:hover{
-    box-shadow: inset 2px 2px 0px 2px #4f1f12,
-    2px 2px 0px 2px #4f1f12;
+    box-shadow: 0 0 25px -10px black;
+}
+
+.brown:hover{
+    box-shadow: 0 0 25px -10px black;
 }
 .box-title{
     font-family: Pacifico;
@@ -389,6 +393,9 @@ button{
     margin-right: auto;
     font-family: "Futura BT";
     padding: 10px 0;
+}
+.header-button{
+    display: none;
 }
 .price{
     font-family: "Futura BT";
@@ -1138,8 +1145,12 @@ button{
         max-width: 580px;
     }
 
+    .last{
+        padding-right: 0;
+    }
+
     .nav-item{
-        margin-right: -25px;
+        margin-left: -30px;
     }
 
     .image{
@@ -1156,5 +1167,96 @@ button{
 
     .footer-wrapper{
         width: 100%;
+    }
+
+    .footer > .container{
+        height: 200px !important
+    }
+}
+
+@media(max-width: 648px){
+    .subtext{
+        margin-left: -50px;
+    }
+}
+
+@media(max-width: 646px){
+    .container{
+        width: 550px;
+    }
+
+    .subtext{
+        margin-left: -50px;
+    }
+}
+
+@media(max-width: 628px){
+    .image{
+        max-width: 100px;
+    }
+}
+
+@media(max-width: 620px){
+    .container{
+        max-width: 520px;
+    }
+
+    .menu > .container > .wrapper{
+        margin-left: -100px;
+    }
+
+    .instagram-wrapper{
+        margin-left: -40px;
+    }
+}
+
+@media(max-width: 600px){
+    .container{
+        max-width: 500px;
+    }
+
+    .image{
+        max-width: 100px;
+    }
+
+    .subtext{
+        margin-left: -80px;
+    }
+
+    .instagram-wrapper{
+        margin-left: -50px;
+    }
+}
+
+@media(max-width: 578px){
+    .header-subtext{
+        font-size: 30px !important
+    }
+
+    .header-subtext > span{
+        font-size: 30px;
+    }
+
+    .header-subtext > strong{
+        font-size: 60px;
+    }
+
+    .header{
+        background-size: 250px !important;
+        background-position: 0 20px !important
+    }
+
+    .image{
+        max-width: 90px;
+    }
+
+    .footer-wrapper{
+        margin: 0 auto;
+        margin-left: -50px;
+    }
+
+    .instagram-wrapper{
+        margin-right: -45px;
+        width: 578px;
     }
 }
