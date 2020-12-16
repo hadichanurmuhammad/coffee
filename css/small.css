@@ -341,3 +341,24 @@
 	}
 
 }
+
+@media(max-width: 448px){
+	.scroll-button{
+		padding: 0;
+	}
+
+	.scroll{
+		width: 420px;
+		margin-right: -20px;
+	}
+}
+
+@media(max-width: 428px){
+	.stars-subtext{
+		margin-left: -40px;
+	}
+
+	.image{
+		max-width: 65px;
+	}
+}
