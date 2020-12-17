@@ -491,7 +491,99 @@
 		margin-left: 50px !important
 	}
 
-	.about-us-img{
-		margin-left: -50px !important
+	.about-us-image{
+		margin-left: 50px !important
+	}
+}
+
+@media(max-width: 404px){
+	.image{
+		max-width: 60px;
+	}
+}
+
+@media(max-width: 398px){
+	.about-us-subtext{
+		min-width: 100% !important;
+		margin-left: 50px !important
+	}
+
+	.map-img{
+		max-width: 100% !important
+	}
+
+	.line{
+		max-width: 300%;
+		margin: 0 auto;
+	}
+
+	.left{
+		margin: 0 auto;
+	}
+
+	.right{
+		margin: 0 auto;
+	}
+
+	.menu > .container > .wrapper > .left > hr{
+		max-width: 300% !important
+	}
+
+	.menu > .container > .wrapper > .right > hr{
+		max-width: 300% !important
+	}
+
+	.scroll{							
+		max-width: 350px;
+	}
+
+	.scroll-box{
+		margin-left: 50px;
+	}
+
+	.ong{
+		left: 15px;
+		z-index: 1;
+	}
+
+	.chap{
+		right: 5px;
+	}
+
+	.stars-subtext{
+		max-width: 350px;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.instagram-title{
+		font-size: 30px;
+		text-align: center;
+		max-width: 100%;
+	}
+
+	.instagram-img{
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.menu > .container > .wrapper{
+		margin-left: -30px;
+	}
+}
+
+@media(max-width: 378px){
+	.image{
+		max-width: 55px;
+	}
+
+	.stars-subtext{
+		margin: 0 auto;
+		text-align: center;
+		margin-left: -15px;
+	}
+
+	.instagram-wrapper{
+		max-width: 380px;
 	}
 }
