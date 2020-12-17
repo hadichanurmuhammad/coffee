@@ -624,3 +624,65 @@
 		max-width: 350px;
 	}
 }
+
+@media(max-width: 368px){
+	.footer-footer-wrapper-subtext{
+		margin-left: 80px;
+	}
+
+	.blog-box{
+		margin: 0;
+		margin-right: -20px;
+	}
+
+	.margin-right{
+		margin-right: -80px;
+	}
+
+	.header-subtext{
+		font-size: 15px !important
+	}
+
+	.header-subtext > span{
+		font-size: 16px !important
+	}
+
+	.header-subtext > strong{
+		font-size: 33px !important
+	}
+
+	.info-title{
+		margin-left: -10px;
+	}
+
+	.info-subtext{
+		max-width: 330px;
+	}
+}
+
+@media(max-width: 352px){
+	.image{
+		max-width: 50px;
+	}
+
+	.left{
+		margin-left: 95px;
+	}
+
+	.right{
+		margin-left: 95px;
+	}
+
+	.blog-box{
+		margin-left: 5px;
+		max-width: 300px !important
+	}
+
+	.instagram-info-subtext{
+		max-width: 300px;
+	}
+
+	.info{
+		margin-left: -110px;
+	}
+}
