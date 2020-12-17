@@ -587,3 +587,40 @@
 		max-width: 380px;
 	}
 }
+
+@media(max-width: 372px){
+	.flex{
+		margin-top: 50px;
+	}
+
+	.instagram-wrapper{
+		max-width: 350px;
+	}
+
+	.footer-title{
+		margin: 0 auto;
+		min-width: 100%;
+	}
+
+	.map-img{
+		height: 100%;
+	}
+
+	.country{
+		margin-left: 0;
+	}
+
+	.left-title{
+		min-width: 200px;
+		margin-left: -20px;
+		padding-top: 10px;
+	}
+
+	.direction{
+		margin-left: -70px;
+	}
+
+	.blog{
+		max-width: 350px;
+	}
+}
