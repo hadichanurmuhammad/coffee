@@ -75,6 +75,10 @@
 	.info{
 		padding-bottom: 20px;
 	}
+
+	.instagram-wrapper{
+		width: 100%;
+	}
 }
 
 @media(max-width: 570px){
@@ -117,6 +121,10 @@
 	.subtext{
 		width: 96%;
 		margin-left: 2%;
+	}
+
+	.about-us-subtext{
+		margin-left: -20px;
 	}
 }
 
@@ -215,6 +223,10 @@
 		width: 450px;
 	}
 
+	.scroll-box{
+		margin: 0 auto;
+	}
+
 	.about-us-subtext{
 		min-width: 400px !important;
 		margin: 0 auto;
@@ -287,7 +299,7 @@
 	}
 
 	.header{
-		padding-bottom: 0;
+		height: 400px;
 	}
 }
 
@@ -395,12 +407,22 @@
 		max-width: 320px;
 	}
 
+	.header{
+		padding-bottom: 0;
+		height: 250px;
+	}
+
 	.about-us-subtext{
 		transform: translateX(-30px);
 	}
 
+	.about-us-link{
+		margin-top: 40px;
+	}
+
 	.about-us-title{
 		max-width: 100%;
+		margin-left: 50px !important
 	}
 
 	.menu > .container > .wrapper{
@@ -585,7 +607,7 @@
 	}
 
 	.instagram-wrapper{
-		max-width: 380px;
+		max-width: 100%;
 	}
 }
 
@@ -629,6 +651,10 @@
 @media(max-width: 368px){
 	.footer-footer-wrapper-subtext{
 		margin-left: 80px;
+	}
+
+	.instagram-info-subtext{
+		margin-left: -10px;
 	}
 
 	.blog-box{
@@ -685,5 +711,27 @@
 
 	.info{
 		margin-left: -110px;
+	}
+}
+
+@media(max-width: 348px){
+	.instagram-info-subtext{
+		margin-left: 0;
+	}
+
+	.instagram{
+		padding-bottom: 0;
+	}
+
+	.instagram-wrapper{
+		width: 100%;
+	}
+
+	.stars-subtext{
+		max-width: 300px;
+	}
+
+	.about-us-link{
+		margin: 20px auto;
 	}
 }
