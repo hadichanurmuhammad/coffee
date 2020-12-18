@@ -1181,6 +1181,10 @@ button{
         background-size: 300px !important;
         background-position: 0 0 !important;   
     }
+
+    
+        display: block;
+    }
 }
 
 @media(max-width: 728px){

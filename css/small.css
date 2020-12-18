@@ -25,10 +25,6 @@
 		width: 95px;
 	}
 
-	.side{
-		display: none;
-	}
-
 	.about-us-title{
 		margin-left: 150px;
 		min-width: 200px;
@@ -101,6 +97,8 @@
 	.nav{
 		flex-direction: row;
 		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
 	}
 
 	.header-button{
@@ -336,16 +334,9 @@
 }
 
 @media(max-width: 458px){
-	.logo{
-		margin-right: 10px;
-	}
 
 	.nav-img{
 		margin-left: 20px;
-	}
-
-	.nav{
-		justify-content: space-between;
 	}
 
 	.image{
@@ -712,9 +703,12 @@
 	.info{
 		margin-left: -110px;
 	}
+	.about-us-link{
+		margin: 20px auto;
+	}
 }
 
-@media(max-width: 348px){
+@media(max-width: 350px){
 	.instagram-info-subtext{
 		margin-left: 0;
 	}
@@ -735,3 +729,4 @@
 		margin: 20px auto;
 	}
 }
+

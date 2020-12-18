@@ -31,12 +31,13 @@
 	}
 
 	.side{
-		display: none;
+		margin: 0 auto;
 		padding-top: 50px;
 	}
 
 	.side > img{
-		width: 400px;
+		width: 100%;
+		margin: 0 auto;
 	}
 
 	.subtext{
