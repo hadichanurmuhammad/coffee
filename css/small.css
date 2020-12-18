@@ -611,6 +611,12 @@
 	}
 }
 
+@media(max-width: 374px){
+	.header-subtext > strong{
+		margin-left: 10px !important
+	}
+}
+
 @media(max-width: 372px){
 	.flex{
 		margin-top: 50px;
