@@ -1,3 +1,7 @@
+:root{
+    --main-bg-color: #01714D;
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -73,7 +77,6 @@ body{
     background-repeat: no-repeat;
     background-position: 10px -100px;
     background-size: 600px;
-    height: 100vh;
     padding-bottom: 80px;
 }
 .container{
@@ -90,7 +93,7 @@ body{
     width: 100%;
 	display: flex;
 	align-items: center;
-	background-color: #562c19;
+	background-color: var(--main-bg-color);
 }
 .nav{
     z-index: 4;
@@ -119,14 +122,14 @@ html {
     padding-right: 100px;
 }
 .images{
-    display: flex;
+    display: none;
     align-items: center;
 }
 .header-subtext{
     padding-top: 100px;
     padding-bottom: 80px;
     font-family: 'Poppins black';
-    color: #4f1f12;
+    color: var(--main-bg-color);
     text-align: right;
     font-size: 50px;
     line-height: 1.2;
@@ -156,7 +159,7 @@ span{
 }
 .about-us-title{
     font-family: Pacifico;
-    color: #4f1f12;
+    color: var(--main-bg-color);
     font-size: 40px;
 }
 .about-us-image{
@@ -166,6 +169,7 @@ span{
     font-family: Pacifico;
     font-size: 25px;
     min-width: 500px;
+    color: #0D3A2C;
 }
 .subtext{
     position: absolute;
@@ -192,7 +196,7 @@ span{
 }
 .about-us-link{
     padding: 15px 20px;
-    background-color: #4f1f12;
+    background-color: var(--main-bg-color);
     color: #fff;
     font-family: "Futura";
     margin-right: 50px;
@@ -208,7 +212,6 @@ button{
 .side{
     position: relative;
     margin-left: auto;
-    margin-top: 40px;
 }
 .collection{
     padding-bottom: 100px;
@@ -219,7 +222,7 @@ button{
     justify-content: center;
 }
 .collection-title{
-    color: #4f1f12;
+    color: var(--main-bg-color);
     font-family: Pacifico;
     font-size: 40px;
     text-align: center;
@@ -234,7 +237,10 @@ button{
     justify-content: center;
 }
 .brown{
-    background-color: #4f1f12;
+    background-color: var(--main-bg-color);
+    background-image: url(../img/FDA1BDC8-8E0A-49DC-8D15-28C4B765E205.JPG);
+    background-size: cover;
+    background-position: -35px 0;
     width: calc(80% / 4);
     margin-right: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -260,13 +266,12 @@ button{
 }
 .box-title{
     font-family: Pacifico;
-    color: #4f1f12;
+    color: var(--main-bg-color);
     padding-bottom: 10px;
 
 }
 .box-subtext{
     width: 100%;
-    padding-top: 30px;
     font-family: "Futura";
     color: #777777;
     text-align: center;
@@ -285,7 +290,7 @@ button{
 .delivery-title{
     font-family: Pacifico;
     padding-bottom: 10px;
-    color: #4f1f12; 
+    color: var(--main-bg-color); 
     font-size: 35px;
 }
 .delivery-img{
@@ -303,6 +308,7 @@ button{
     font-size: 25px;
     padding-top: 10px;
     padding-bottom: 20px;
+    color: #0D3A2C;
 }
 .country{
     display: flex;
@@ -331,17 +337,17 @@ button{
 }
 .delivery-link{
     padding: 13px 25px;
-    background-color: #4f1f12;
+    background-color: var(--main-bg-color);
     color: #fff;
     font-family: "Futura Md BT";
 }
 .map-img{
-    width: 500px;
     margin-top: 100px;
+    margin-left: -100px;
 }
 .menu{
     width: 100%;
-    background-color: #291009;
+    background-color: #094D38;
     color: #fff;
     padding-bottom: 80px;
 }
@@ -413,7 +419,7 @@ button{
 .chefs-title{
     padding-top: 100px;
     font-family: Pacifico;
-    color: #4f1f12;
+    color: var(--main-bg-color);
     font-size: 40px;
     text-align: center;
 }
@@ -426,7 +432,10 @@ button{
 .scroll-box{
     width: 280px;
     height: 330px;
-    background-color: #4f1f12;
+    background-color: var(--main-bg-color);
+    background-image: url(../img/chef.jpeg);
+    background-size: 110%;  
+    background-repeat: no-repeat; 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     margin: 0 5px;
 }
@@ -438,6 +447,7 @@ button{
 }
 .stars-title{
     font-family: Pacifico;
+    color: #0D3A2C;
     padding-bottom: 10px;
 }
 .stars-subtext{
@@ -455,6 +465,7 @@ button{
 .chefs-subtext{
     font-family: Pacifico;
     padding-right: 10px;
+    color: #0D3A2C;
 }
 .chefs-stars-img{
     margin: 0 3px;
@@ -471,7 +482,7 @@ button{
 .instagram-title{
     font-family: Pacifico;
     font-size: 40px;
-    color: #4f1f12;
+    color: var(--main-bg-color);
     padding-bottom: 15px;
 }
 .instagram-img{
@@ -485,10 +496,31 @@ button{
     padding-top: 30px;
     padding-bottom: 100px;
 }
+
+.none{
+    background-image: url(../img/2CF7332D-646E-4F72-BB8D-E4FB4F5721DC.JPG);
+    background-size: cover;
+}
+
+.one{
+    background-image: url(../img/CB2C7E40-9E3C-47A1-A734-7F72236A8800.JPG);
+    background-size: cover;
+}
+
+.display{
+    background-image: url(../img/IMG_0188.JPG);
+    background-size: cover;
+}
+
+.other{
+    background-image: url(../img/80CCD665-A752-473D-8D66-BF4EDA8BF81A.JPG);
+    background-size: cover;
+}
+
 .instagram-wrapper-box{
     width: 200px;
     height: 200px;
-    background-color: #4f1f12;
+    background-color: var(--main-bg-color);
     margin: 10px;
 }
 .instagram{
@@ -499,7 +531,7 @@ button{
 }
 .instagram-container-title{
     font-family: Pacifico;
-    color: #4f1f12;
+    color: var(--main-bg-color);
     font-size: 40px;
     padding-bottom: 10px;
 }
@@ -512,11 +544,32 @@ button{
 .blog-box{
     width: 350px;
     height: 250px;
-    background-color: #4f1f12;
+    background-color: var(--main-bg-color);
     margin: 0 10px;
     display: flex;
     flex-direction: column;
 }
+
+.third{
+    background-image: url(../img/8E2B5446-A3F3-4F10-8BAE-2AB2C9204781.JPG);
+    background-size: cover;
+    border: 1px solid #000;
+}
+
+.second{
+    background-image: url(../img/6DE800A4-0D1A-40D5-ACA1-2E52848624F8.JPG);
+    background-size: cover;
+    background-position: 0 -40px;
+    border: 1px solid #000;
+}
+
+.first{
+    background-image: url(../img/CE59D53C-A658-42B8-9BC5-0B04E3179EA2.JPG);
+    background-size: cover;
+    background-position: 0 -40px;
+    border: 1px solid #000;
+}
+
 .info-wrapper{
     display: flex;
     justify-content: flex-start;
@@ -533,7 +586,7 @@ button{
     font-family: Pacifico;
     padding-top: 10px;
     padding-bottom: 15px;
-    color: #4f1f12;
+    color: var(--main-bg-color);
     min-width: 200px;
 }
 .info-subtext{
@@ -551,9 +604,9 @@ button{
 }
 .info-link{
     font-family: "Futura BT";
-    color: #4f1f12;
+    color: var(--main-bg-color);
     padding-bottom: 5px;
-    border-bottom: 2px solid #4f1f12;
+    border-bottom: 2px solid var(--main-bg-color);
 }
 .info-link::after{
     content: "";
@@ -604,7 +657,7 @@ button{
 .footer-link{
     font-family: "Futura BT";
     color: #fff;
-    background-color: #4f1f12;
+    background-color: var(--main-bg-color);
     display: flex;
     width: 200px;
     text-align: center;
