@@ -613,7 +613,7 @@
 
 @media(max-width: 374px){
 	.header-subtext > strong{
-		margin-left: 10px !important
+		margin-right: -30px !important
 	}
 }
 
