@@ -1,5 +1,5 @@
 :root{
-    --main-bg-color: #01714D;
+    --main-bg-color: #4f1f12;
 }
 
 *{
@@ -87,10 +87,12 @@ body{
 .logo{
     display: flex;
     align-items: center;
+    margin-left: 100px;
 }
 .nav{
     position: fixed;
     width: 100%;
+    padding: 10px 0;
 	display: flex;
 	align-items: center;
 	background-color: var(--main-bg-color);
@@ -169,7 +171,7 @@ span{
     font-family: Pacifico;
     font-size: 25px;
     min-width: 500px;
-    color: #0D3A2C;
+    color: var(--main-bg-color);
 }
 .subtext{
     position: absolute;
@@ -244,7 +246,7 @@ button{
 }
 .brown{
     background-color: var(--main-bg-color);
-    background-image: url(../img/FDA1BDC8-8E0A-49DC-8D15-28C4B765E205.JPG);
+    background-image: url(../img/collection.jpg);
     background-size: cover;
     background-position: -35px 0;
     width: calc(80% / 4);
@@ -314,7 +316,7 @@ button{
     font-size: 25px;
     padding-top: 10px;
     padding-bottom: 20px;
-    color: #0D3A2C;
+    color: var(--main-bg-color);
 }
 .country{
     display: flex;
@@ -353,7 +355,7 @@ button{
 }
 .menu{
     width: 100%;
-    background-color: #094D38;
+    background-color: #291009;
     color: #fff;
     padding-bottom: 80px;
 }
@@ -439,7 +441,7 @@ button{
     width: 280px;
     height: 330px;
     background-color: var(--main-bg-color);
-    background-image: url(../img/chef.jpeg);
+    background-image: url(../img/chef.jpg);
     background-size: 110%;  
     background-repeat: no-repeat; 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -453,7 +455,7 @@ button{
 }
 .stars-title{
     font-family: Pacifico;
-    color: #0D3A2C;
+    color: var(--main-bg-color);
     padding-bottom: 10px;
 }
 .stars-subtext{
@@ -471,7 +473,7 @@ button{
 .chefs-subtext{
     font-family: Pacifico;
     padding-right: 10px;
-    color: #0D3A2C;
+    color: var(--main-bg-color);
 }
 .chefs-stars-img{
     margin: 0 3px;
@@ -504,22 +506,22 @@ button{
 }
 
 .none{
-    background-image: url(../img/2CF7332D-646E-4F72-BB8D-E4FB4F5721DC.JPG);
+    background-image: url(../img/400.webp);
     background-size: cover;
 }
 
 .one{
-    background-image: url(../img/CB2C7E40-9E3C-47A1-A734-7F72236A8800.JPG);
+    background-image: url(../img/cup.jpg);
     background-size: cover;
 }
 
 .display{
-    background-image: url(../img/IMG_0188.JPG);
+    background-image: url(../img/coffee.jpg);
     background-size: cover;
 }
 
 .other{
-    background-image: url(../img/80CCD665-A752-473D-8D66-BF4EDA8BF81A.JPG);
+    background-image: url(../img/morning.jpg);
     background-size: cover;
 }
 
@@ -557,20 +559,20 @@ button{
 }
 
 .third{
-    background-image: url(../img/8E2B5446-A3F3-4F10-8BAE-2AB2C9204781.JPG);
+    background-image: url(../img/blog.jpg);
     background-size: cover;
     border: 1px solid #000;
 }
 
 .second{
-    background-image: url(../img/6DE800A4-0D1A-40D5-ACA1-2E52848624F8.JPG);
+    background-image: url(../img/cofee-blog.jpg);
     background-size: cover;
     background-position: 0 -40px;
     border: 1px solid #000;
 }
 
 .first{
-    background-image: url(../img/CE59D53C-A658-42B8-9BC5-0B04E3179EA2.JPG);
+    background-image: url(../img/kofemolki-coffee-shop-net-ua.jpg);
     background-size: cover;
     background-position: 0 -40px;
     border: 1px solid #000;
